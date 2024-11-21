@@ -1,8 +1,10 @@
 body{
     overflow-x: hidden !important;
 }
+
 header{
     border-top: 6px solid orangered;
+    display: flex;
 }
 @font-face {
     font-family: headerf;
@@ -23,6 +25,8 @@ header{
 .contact{
     text-align: end;
     font-family: cursive;
+    width: calc(100vw - 125px);
+    padding: 20px;
 }
 .product{
     height: 550px;
@@ -31,13 +35,22 @@ header{
     background-size: cover;
 }
 h3{
-    font-size: 60px !important;
+    font-size: 3em !important;
+}
+h4{
+    font-size: 1.5em !important;
+}
+p{
+    font-size: 1em !important;
+}
+h3{
+    /* font-size: 60px !important; */
 }
 h4{
     font-family: 'condts' !important;
     color:darkorange;
     font-weight: 800 !important;
-    font-size: 25px !important;
+    /* font-size: 25px !important; */
 }
 h6{
     font-family: 'headerf' !important;
@@ -107,7 +120,6 @@ h6{
   .banner{
       background:url('./imgs/bb1.jpg') ;
       color: whitesmoke;
-      opacity: 0.2;
       padding-top: 10px;
   }
   .crackers{
@@ -120,16 +132,7 @@ h6{
   a{
       font-size: large;
   }
-  .fadein {
-    opacity: 0;
-    transition: all 1.5s;
-    transform: translate(0, 100px);
-  }
   
-  .fadein.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
   .card {
       font-family: condts !important;
     box-shadow: 0 4px 8px 0 #f2f2f2;
@@ -165,4 +168,22 @@ h6{
   }
   .card h4{
       font-size: 15px !important;
+  }
+  @media screen and (max-width: 480px) {
+    #family{
+        display: none;
+    }
+    .crackers{
+        padding: 0 !important;
+        padding-top: 5em !important;
+    }
+    #crackers2{
+        padding: 0 !important;
+    }
+   .fadein{
+       text-align: center;
+   }
+   #web{
+       display: none !important;
+   }
   }
