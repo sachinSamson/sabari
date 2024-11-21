@@ -1,0 +1,168 @@
+body{
+    overflow-x: hidden !important;
+}
+header{
+    border-top: 6px solid orangered;
+}
+@font-face {
+    font-family: headerf;
+    src: url(./imgs/AustonePersonalUse-Italic.otf);
+ }
+ @font-face {
+    font-family: condts;
+    src: url(./imgs/The\ Clasedus-demo.otf);
+ }
+ @font-face {
+    font-family: crackers;
+    src: url(./imgs/Gobold\ Blocky\ Regular.otf);
+ }
+ .a{
+    font-family: 'crackers';
+    font-size: 25px !important;
+ }
+.contact{
+    text-align: end;
+    font-family: cursive;
+}
+.product{
+    height: 550px;
+    background: url(./imgs/night-sky-banner-celebrate-fireworks-new-year-vector-45041161.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    font-size: 60px !important;
+}
+h4{
+    font-family: 'condts' !important;
+    color:darkorange;
+    font-weight: 800 !important;
+    font-size: 25px !important;
+}
+h6{
+    font-family: 'headerf' !important;
+    font-size: 35px !important;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-whatsapp {
+    background: #a4c639;
+    color: white;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  .footer{
+      background:url('./imgs/footer.jpg');
+      margin-top: 15px;     
+      text-align: center; 
+      color:white;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .fa1{
+    font-size: 35px !important;
+    width: 80px;
+    border-radius: 0;
+    padding: 0;
+  }
+  .banner{
+      background:url('./imgs/bb1.jpg') ;
+      color: whitesmoke;
+      opacity: 0.2;
+      padding-top: 10px;
+  }
+  .crackers{
+      background: url('./imgs/crackers.jpg');
+      height: 400px;
+  }
+  .brands{
+      background-size: cover;
+  }
+  a{
+      font-size: large;
+  }
+  .fadein {
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translate(0, 100px);
+  }
+  
+  .fadein.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  .card {
+      font-family: condts !important;
+    box-shadow: 0 4px 8px 0 #f2f2f2;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    background:whitesmoke;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .card img{
+      width: 300px !important;
+      height: 300px;
+  }
+  .card h4{
+      font-size: 15px !important;
+  }
